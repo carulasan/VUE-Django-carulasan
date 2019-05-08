@@ -1,25 +1,29 @@
-# VUE-Django-carulasan
-step 1
-create virtual environment
-python -m virtualenv envname
+# firstapp
 
-step 2
-install django
-pip install django
+## Project setup
+```
+yarn install
+```
 
+### Compiles and hot-reloads for development
+```
+yarn run serve
+```
 
-step 3
-cd firstapp
+### Compiles and minifies for production
+```
+yarn run build
+```
 
+### Run your tests
+```
+yarn run test
+```
 
-for development
-npm run dev
+### Lints and fixes files
+```
+yarn run lint
+```
 
-
-for deployment
-inside firstapp
-run build
-python format_index_html.py
-
-cd ..
-python manage.py runserver
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
