@@ -20,10 +20,14 @@ yarn run build
 yarn run test
 ```
 
-### Lints and fixes files
-```
-yarn run lint
-```
+for deployment
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+yarn build
+python format_index_html.py
+
+python manage.py runserver
+
+
+credits of this repositories
+https://github.com/NdagiStanley/vue-django
+https://github.com/gtalarico/django-vue-template
