@@ -9,6 +9,28 @@
 
 <script>
 export default {
-  name: 'PageHome'
+  name: 'PageHome',
+  data() {
+    return {
+      key: value
+    }
+  },methods: {
+    call() {
+      
+      //  axios.get(`http://127.0.0.1:8000/api/ServiceFees/`,{headers : { Authorization : `Bearer ${this.permission.token}` }})
+      //   .then((response) => {
+            
+           
+          
+           
+
+      //   })
+      //   .catch((error) => {
+           
+             
+      //   });
+
+    }
+  },
 }
 </script>
