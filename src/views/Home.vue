@@ -30,7 +30,24 @@ export default {
              
       //   });
 
-    }
+    },
+    tokenupdater(){
+
+        
+        // token refresh
+        // axios.post(`${this.hostname}/api/token/refresh/`,{refresh : `${this.permission.refresh_token}`})
+        //   .then((response) => {
+              
+
+        //     this.new_refresh(response.data.access)
+            
+        //   })
+        //   .catch((error) => {
+            
+        //   });
+        
+    },
+    
   },
 }
 </script>
